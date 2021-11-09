@@ -37,9 +37,9 @@ test_images = test_images / 255.0
 # neznanje matplotsranja, a ne tensora il bilo ceg drugog
 # mathplotlib - generative art (reminder)
 
-plt.figure(figsize=(8,8))
-for i in range(25):
-    plt.subplot(5,5,i+1)
+plt.figure(figsize=(10,10))
+for i in range(100):
+    plt.subplot(10,10,i+1)
     plt.xticks([])
     plt.yticks([])
     plt.grid(False)
@@ -87,3 +87,23 @@ model.compile(optimizer='adam',
 # prema ovoj gore funkciji, optimizer, loss, metrics, ... , loss nam mjeri kolko je model tocan,
 # a optimiter updatea sranja based na podacima koje vidi i loss fuknciji
 model.fit(train_images, train_labels, epochs=10)
+
+# test_dataset vs train_dataset, desava se overfitting zato jer test dataset nema nist "prije" radi samo s informacijama koje je
+# dobil od shit train_dataset-a, a cesto taj train_dataset zapmati sranja(nije istina, zapamti sve kaj mu velimo da zapamti, samo kaj to negativno impacta unknown dataset)
+# koja nebi treba, odnosno, zapamti "noise" i detalje koje
+# onda negativno utjecu na nevideni SET, jer nezna bolje
+
+test_loss, test_acc = model.evaluate(test_images, test_labels, verbose=2)
+print(test_acc)
+print(test_loss)
+
+# softmax pretvara 'logits' u postotke da je nama lakse razumijet, again nama, ne kompjuteru
+probability_model = tf.keras.Sequential([model,tf.keras.layers.Softmax()])
+
+# stavimo nutra nase slike da nam "predicta" to
+predictions = probability_model.predict(test_images)
+# dobimo array s 10 vrijednosti, znaci tih 0-9 mjesta u arrayu i svaka vrijednost predstavlja kolko je zapravo slicno cemu
+# dal je nekaj slicnu labelu 0-carapa il kaj vec ili 9-majca ili kaj vec
+print(predictions[0])
+# funkcija argmax nam daje kojem ja najslicnija, znaci ovo da destom mjestu u arrayju je imalo 9.78 kaj je ekvivalent sranju na labelu broj 9
+print(np.argmax(predictions[0]))
