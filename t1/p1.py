@@ -107,3 +107,58 @@ predictions = probability_model.predict(test_images)
 print(predictions[0])
 # funkcija argmax nam daje kojem ja najslicnija, znaci ovo da destom mjestu u arrayju je imalo 9.78 kaj je ekvivalent sranju na labelu broj 9
 print(np.argmax(predictions[0]))
+
+# ova sljedeca funkcija zgleda dosta intimidating, ali stvarno nije dok uzmes dobrih 10 minut da sve prokuzis
+# dodatni opis budem napravil s screenshot-om
+
+def plot_image(i, predictions_array, true_label, img):
+    # nist novo, sve kaj smo gore vec objasnili
+    true_label, img = true_label[i], img[i]
+    plt.grid(False)
+    plt.xticks([])
+    plt.yticks([])
+    plt.imshow(img, cmap=plt.cm.binary)
+    
+    # kaj ova fukncija radi: stavljamo ovo isto gore argmax da dobimo prediction koji bu LABEL imal najveci postotak slicnosti
+    # dok taj predicted_label bude jednak tome s NAJVISE slicnosti stavili budemo ga kao true_label(naravno ne kao vrijednost)
+    # jer se vrijednost true_label-a ne mijenja ali mi sami sebi da pokazemo aha to je plavo, jer u tim true_labelima ko 
+    # argument stavaljmo unutra test_labels(onih 10 kaj znam vec kroz cijeli projekt)
+    # BIG TIP: stavil bum dodatno objasnjenje toga sa slikicom
+    predicted_label = np.argmax(predictions_array)
+    if predicted_label == true_label:
+        color = 'blue'
+    else: 
+        color = 'red'
+    
+    # tu samo ispijemo u graf keyword-e lmao, a upravo oni na dopustaju pa da si i najveca budale na svetu da razmes kaj tocno
+    # ta fukncija radi u kojem djelu
+    plt.xlabel("{} {:2.0f}% ({})".format(class_names[predicted_label],
+                                100*np.max(predictions_array),
+                                class_names[true_label]),
+                                color=color)
+
+
+# imamo tu sad jos jedan graf koji je manje vise prvi dio isto sranje, a ovo dole su mathlab bullshit-i koji su 
+# pretty strightforward i neda mi se ta sranja objasnjavat
+def plot_value_array(i, predictions_array, true_label):
+    true_label = true_label[i]
+    plt.grid(False)
+    plt.xticks(range(10))
+    plt.yticks([])
+    thisplot = plt.bar(range(10), predictions_array, color="#777777")
+    plt.ylim([0, 1])
+    predicted_label = np.argmax(predictions_array)
+
+    thisplot[predicted_label].set_color('red')
+    thisplot[true_label].set_color('blue')
+
+
+# sad stavimo parametre nutra u funkcije koje smo slozili i to je pretty much to, unutra stavljamo ove "varijable"
+# koje znamo od prije pa nam ja jasnije kaj se gore dogada opet(ak si videl to prije lamo xd)
+i = 0
+plt.figure(figsize=(6,3))
+plt.subplot(1,2,1)
+plot_image(i, predictions[i], test_labels, test_images)
+plt.subplot(1,2,2)
+plot_value_array(i, predictions[i],  test_labels)
+plt.show()
