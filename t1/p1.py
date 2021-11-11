@@ -162,3 +162,25 @@ plot_image(i, predictions[i], test_labels, test_images)
 plt.subplot(1,2,2)
 plot_value_array(i, predictions[i],  test_labels)
 plt.show()
+
+# pokazali smo slikice, kak to dela, sve lepo krasno, ali sad idemo stavit sliku nutra i zapravo koristit nas
+# trained model
+# koristil bum novu varijablu, samo radi claritija, makar je ovo samo u fuknciji ~img
+
+img_test = test_images[1]
+img_test = (np.expand_dims(img_test, 0))
+# ovo gore znaci da stavljamo sliku u "batch", ko neki collection, makar je sama, tak to radi lamo
+# pa prinatmo to da vidimo, (1, 28, 28) jedna slikica 28x28 jedna slikica 28x28
+print(img_test)
+
+single_prediction = probability_model.predict(img_test)
+print(single_prediction)
+
+# evo kraja, brate mili ako je neko ovo celo procital, svaka ti cast, doslovno napisi mi poruku na instagram(ekaeoo)lmao
+# zadnji graf koji nam pokaze kaj model misli da ta slikica je:
+plot_value_array(1, single_prediction[0], test_labels)
+_ = plt.xticks(range(10), class_names, rotation=45)
+plt.show()
+
+# jedino za kraj kaj bi jos htel napravit je napravit side-by-side graf sa slikom koju imamo i tim zadnji predictionom
+# ok peace out
