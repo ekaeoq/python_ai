@@ -181,6 +181,3 @@ print(single_prediction)
 plot_value_array(1, single_prediction[0], test_labels)
 _ = plt.xticks(range(10), class_names, rotation=45)
 plt.show()
-
-# jedino za kraj kaj bi jos htel napravit je napravit side-by-side graf sa slikom koju imamo i tim zadnji predictionom
-# ok peace out
