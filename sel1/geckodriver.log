@@ -824,3 +824,213 @@ Read port: 54716
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1657711103023	geckodriver	INFO	Listening on 127.0.0.1:56914
+1657711103566	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56915" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofile58DTqK"
+1657711104989	Marionette	INFO	Marionette enabled
+2022-07-13 13:18:26.111 firefox-bin[92823:6349175] Warning: Expected min height of view: (<NSButton: 0x12510dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-13 13:18:26.111 firefox-bin[92823:6349175] Warning: Expected min height of view: (<NSButton: 0x125639800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-13 13:18:26.112 firefox-bin[92823:6349175] Warning: Expected min height of view: (<NSButton: 0x12563c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-13 13:18:26.114 firefox-bin[92823:6349175] Warning: Expected min height of view: (<NSButton: 0x125637800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-13 13:18:26.115 firefox-bin[92823:6349175] Warning: Expected min height of view: (<NSButton: 0x12563cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-13 13:18:26.116 firefox-bin[92823:6349175] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12563d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-13 13:18:26.117 firefox-bin[92823:6349175] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11d311000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofile58DTqK/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56915/devtools/browser/9fbcbdf8-4365-4931-8608-3a6afc77f0c3
+1657711107798	Marionette	INFO	Listening on port 56931
+Read port: 56931
+1657711107871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1657712625808	Marionette	INFO	Stopped listening on port 56931
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1658052263565	geckodriver	INFO	Listening on 127.0.0.1:49434
+1658052264076	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49435" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilethOWsP"
+1658052265031	Marionette	INFO	Marionette enabled
+2022-07-17 12:04:26.336 firefox-bin[5453:295204] Warning: Expected min height of view: (<NSButton: 0x127f24800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-17 12:04:26.337 firefox-bin[5453:295204] Warning: Expected min height of view: (<NSButton: 0x1280bb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-17 12:04:26.338 firefox-bin[5453:295204] Warning: Expected min height of view: (<NSButton: 0x1280b8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-17 12:04:26.339 firefox-bin[5453:295204] Warning: Expected min height of view: (<NSButton: 0x1280be800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-17 12:04:26.340 firefox-bin[5453:295204] Warning: Expected min height of view: (<NSButton: 0x1280bb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-17 12:04:26.341 firefox-bin[5453:295204] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1280bc400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-17 12:04:26.341 firefox-bin[5453:295204] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1211b4000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilethOWsP/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49435/devtools/browser/7299917f-5292-4842-8894-3589f3e88fdd
+1658052268035	Marionette	INFO	Listening on port 49447
+Read port: 49447
+1658052268150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658052404565	Marionette	INFO	Stopped listening on port 49447
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1658240138244	geckodriver	INFO	Listening on 127.0.0.1:49514
+1658240138760	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49515" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilewuuMMH"
+1658240139748	Marionette	INFO	Marionette enabled
+2022-07-19 16:15:40.857 firefox-bin[5783:402485] Warning: Expected min height of view: (<NSButton: 0x11a383800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:15:40.858 firefox-bin[5783:402485] Warning: Expected min height of view: (<NSButton: 0x1295ef800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:15:40.858 firefox-bin[5783:402485] Warning: Expected min height of view: (<NSButton: 0x1295ee000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:15:40.859 firefox-bin[5783:402485] Warning: Expected min height of view: (<NSButton: 0x1295ed000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:15:40.860 firefox-bin[5783:402485] Warning: Expected min height of view: (<NSButton: 0x1295eac00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:15:40.860 firefox-bin[5783:402485] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1295ee400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:15:40.861 firefox-bin[5783:402485] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x119050800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilewuuMMH/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49515/devtools/browser/3aac3c7e-65ea-4dcd-aae2-17ad6591006d
+1658240142325	Marionette	INFO	Listening on port 49532
+Read port: 49532
+1658240142408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658240158654	Marionette	INFO	Stopped listening on port 49532
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1658240342058	geckodriver	INFO	Listening on 127.0.0.1:49652
+1658240342571	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49653" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileCrpaM1"
+1658240343372	Marionette	INFO	Marionette enabled
+2022-07-19 16:19:04.607 firefox-bin[5854:405668] Warning: Expected min height of view: (<NSButton: 0x11bf77800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:19:04.608 firefox-bin[5854:405668] Warning: Expected min height of view: (<NSButton: 0x122dd8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:19:04.609 firefox-bin[5854:405668] Warning: Expected min height of view: (<NSButton: 0x122ddb000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:19:04.610 firefox-bin[5854:405668] Warning: Expected min height of view: (<NSButton: 0x122ddb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:19:04.610 firefox-bin[5854:405668] Warning: Expected min height of view: (<NSButton: 0x122dd8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:19:04.611 firefox-bin[5854:405668] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x122dd8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-07-19 16:19:04.612 firefox-bin[5854:405668] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x122f19400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileCrpaM1/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:49653/devtools/browser/a117b763-99b8-4fb6-bb29-94e0b4b59c3e
+1658240346217	Marionette	INFO	Listening on port 49670
+Read port: 49670
+1658240346281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658240352474	Marionette	INFO	Stopped listening on port 49670
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1658241683678	geckodriver	INFO	Listening on 127.0.0.1:50386
+1658241684202	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50387" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileIRyRhq"
+2022-07-19 16:41:29.922 plugin-container[6269:425574] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:41:29.943 plugin-container[6269:425574] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://localhost:50387
+2022-07-19 16:41:30.238 plugin-container[6269:425574] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:41:30.238 plugin-container[6269:425574] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 16:41:30.239 plugin-container[6269:425579] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:41:30.239 plugin-container[6269:425579] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://localhost:50387/devtools/browser/91e7aaa8-7eb4-43ff-a4b8-21de8913e49e
+1658242184337	geckodriver	INFO	Listening on 127.0.0.1:50676
+1658242184865	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50677" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilea8PfQ7"
+2022-07-19 16:49:45.823 plugin-container[6389:432056] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:49:45.823 plugin-container[6389:432056] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 16:49:45.837 plugin-container[6389:432056] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:49:45.837 plugin-container[6389:432056] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 16:49:45.837 plugin-container[6389:432058] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:49:45.837 plugin-container[6389:432058] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658242185868	Marionette	INFO	Marionette enabled
+1658242185938	Marionette	INFO	Listening on port 50684
+WebDriver BiDi listening on ws://localhost:50677
+Read port: 50684
+1658242186211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilea8PfQ7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50677/devtools/browser/e2fdbcda-88df-4013-9cb0-20f4c2156223
+1658242206417	Marionette	INFO	Stopped listening on port 50684
+1658242305677	geckodriver	INFO	Listening on 127.0.0.1:50935
+1658242306193	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50936" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileG3UiFU"
+2022-07-19 16:51:47.062 plugin-container[6462:434327] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:51:47.063 plugin-container[6462:434327] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658242307089	Marionette	INFO	Marionette enabled
+2022-07-19 16:51:47.105 plugin-container[6462:434327] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:51:47.105 plugin-container[6462:434327] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 16:51:47.106 plugin-container[6462:434352] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 16:51:47.106 plugin-container[6462:434352] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658242307394	Marionette	INFO	Listening on port 50943
+WebDriver BiDi listening on ws://localhost:50936
+Read port: 50943
+1658242307596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileG3UiFU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50936/devtools/browser/0945478d-0c75-4b2a-8b22-4131e8f07947
+1658243021459	geckodriver	INFO	Listening on 127.0.0.1:51343
+1658243021976	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51344" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileeUV55u"
+2022-07-19 17:03:42.767 plugin-container[6987:444157] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:03:42.768 plugin-container[6987:444157] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:03:42.776 plugin-container[6987:444157] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:03:42.776 plugin-container[6987:444157] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:03:42.777 plugin-container[6987:444159] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:03:42.777 plugin-container[6987:444159] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658243022795	Marionette	INFO	Marionette enabled
+1658243022850	Marionette	INFO	Listening on port 51351
+WebDriver BiDi listening on ws://localhost:51344
+Read port: 51351
+1658243023293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileeUV55u/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51344/devtools/browser/bc439928-a9b5-4b8d-9bcc-f830b19e2c7b
+1658243061233	Marionette	INFO	Stopped listening on port 50943
+1658243068645	Marionette	INFO	Stopped listening on port 51351
+1658243071161	geckodriver	INFO	Listening on 127.0.0.1:51418
+1658243071679	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51419" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileQnd6NJ"
+2022-07-19 17:04:32.393 plugin-container[7027:445151] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:04:32.393 plugin-container[7027:445151] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:04:32.398 plugin-container[7027:445151] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:04:32.398 plugin-container[7027:445151] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:04:32.399 plugin-container[7027:445149] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:04:32.399 plugin-container[7027:445149] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658243072425	Marionette	INFO	Marionette enabled
+1658243072469	Marionette	INFO	Listening on port 51426
+WebDriver BiDi listening on ws://localhost:51419
+Read port: 51426
+1658243072956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileQnd6NJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51419/devtools/browser/08f1d210-5abb-40f2-b9d4-bce8fa954a4d
+1658243076575	Marionette	INFO	Stopped listening on port 51426
+1658243090926	geckodriver	INFO	Listening on 127.0.0.1:51488
+1658243090937	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51489" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileAzt7Ao"
+2022-07-19 17:04:51.644 plugin-container[7051:445677] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:04:51.645 plugin-container[7051:445677] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:04:51.658 plugin-container[7051:445677] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:04:51.658 plugin-container[7051:445677] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:04:51.659 plugin-container[7051:445679] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:04:51.659 plugin-container[7051:445679] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658243091664	Marionette	INFO	Marionette enabled
+1658243091717	Marionette	INFO	Listening on port 51494
+WebDriver BiDi listening on ws://localhost:51489
+Read port: 51494
+1658243092152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileAzt7Ao/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51489/devtools/browser/7f5b1f56-b27f-413c-8118-f3356f4ce560
+1658243099086	Marionette	INFO	Stopped listening on port 51494
+1658243956414	geckodriver	INFO	Listening on 127.0.0.1:51676
+1658243956932	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51677" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileS6kFhL"
+2022-07-19 17:19:17.661 plugin-container[7206:453491] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:19:17.661 plugin-container[7206:453491] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:19:17.667 plugin-container[7206:453491] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:19:17.667 plugin-container[7206:453491] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:19:17.668 plugin-container[7206:453515] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:19:17.668 plugin-container[7206:453515] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658243957679	Marionette	INFO	Marionette enabled
+1658243957738	Marionette	INFO	Listening on port 51684
+Read port: 51684
+WebDriver BiDi listening on ws://localhost:51677
+1658243958205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofileS6kFhL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51677/devtools/browser/f4ea9e4d-0a75-435d-8e64-c5694850301e
+1658243963348	Marionette	INFO	Stopped listening on port 51684
+1658244041596	geckodriver	INFO	Listening on 127.0.0.1:51750
+1658244042117	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51751" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilewmmqMV"
+2022-07-19 17:20:42.700 plugin-container[7236:454943] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:20:42.701 plugin-container[7236:454943] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:20:42.711 plugin-container[7236:454943] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:20:42.711 plugin-container[7236:454943] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-19 17:20:42.712 plugin-container[7236:454968] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-19 17:20:42.712 plugin-container[7236:454968] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658244042726	Marionette	INFO	Marionette enabled
+1658244042785	Marionette	INFO	Listening on port 51758
+WebDriver BiDi listening on ws://localhost:51751
+Read port: 51758
+1658244043332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/h3/85s_0fvd5mq1n901rgzh32yh0000gn/T/rust_mozprofilewmmqMV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51751/devtools/browser/df83e7ae-19b3-438e-a525-58561b7edb6f
+1658244048587	Marionette	INFO	Stopped listening on port 51758

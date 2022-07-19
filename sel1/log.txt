@@ -1,0 +1,5 @@
+Login links:
+https://stackoverflow.com/questions/30435749/python-selenium-firefox-cant-start-firefox-with-specified-profile-path/33350778#33350778
+https://stackoverflow.com/questions/48880646/how-to-use-browser-that-is-already-open-and-logged-in-with-login-credentials
+https://www.geeksforgeeks.org/gmail-login-using-python-selenium/
+https://stackoverflow.com/questions/45417335/python-use-cookie-to-login-with-selenium#answer-45419194
